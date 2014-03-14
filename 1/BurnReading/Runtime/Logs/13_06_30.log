@@ -1,0 +1,166 @@
+[ 2013-06-30T19:01:29+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007301s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:1.049905s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000570s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:1.051691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2013-06-30T19:02:54+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006346s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000297s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000273s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000159s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2013-06-30T19:02:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.136878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000364s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2013-06-30T19:04:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000246s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000242s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000126s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2013-06-30T19:04:37+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:2.231678s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.231848s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000328s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2013-06-30T19:05:27+08:00 ] 127.0.0.1 /index.php/Index/publish
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.001039s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO `article` (`auto_close_time`,`content`,`creator_ip`,`create_time`,`id`,`remain_times`) VALUES (10,'各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n','127.0.0.1','2013-06-30 07:05:27','ucWAf4qtWR',1) [ RunTime:0.002722s ]
+
+[ 2013-06-30T19:05:31+08:00 ] 127.0.0.1 /index.php/ucWAf4qtWR
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.001392s ]
+SQL: SELECT * FROM `article` WHERE ( id = 'ucWAf4qtWR' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: UPDATE `article` SET `content`='各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n各种尝试和付出都是值得的。\r\n',`create_time`='2013-06-30 07:05:27',`creator_ip`='127.0.0.1',`auto_close_time`=10,`remain_times`=0 WHERE ( `id` = 'ucWAf4qtWR' ) [ RunTime:0.000611s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008587s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000377s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000272s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2013-06-30T19:05:52+08:00 ] 127.0.0.1 /index.php/ucWAf4qtWR
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.001047s ]
+SQL: SELECT * FROM `article` WHERE ( id = 'ucWAf4qtWR' ) LIMIT 1   [ RunTime:0.000349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000294s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: content /Volumes/Data/Projects/,SAE/BurnReading/1/BurnReading/Runtime/Cache/d1a4faf269578e800b507aef10f25c18.php 第 20 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.005071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005187s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000252s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000259s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000137s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+

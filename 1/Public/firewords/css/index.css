@@ -1,0 +1,74 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.jumbotron {
+    margin: 60px 0 120px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+
+.guide {
+    margin-bottom: 50px;
+}
+
+.input-append {
+    margin-bottom: 0;
+}
+
+.input-append input[type=text] {
+    font-size: 18px;
+    height: 44px;
+}
+
+.input-append .add-on {
+    padding-top: 12px;
+    font-size: 18px;
+    height: 26px;
+}
+
+#editor {
+    max-height: 250px;
+    max-width: 700px;
+    height: 250px;
+    width: 700px;
+    font-size: 30px;
+    padding: 20px 15px;
+    line-height: 40px;
+    background-color: white;
+    border-collapse: separate;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: content-box;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    overflow: scroll;
+    outline: none;
+}
+
+.noticeTemplate {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    min-width: 100px;
+}
+
+.article-content {
+    display: none;
+    font-size: 30px;
+    line-height: 40px;
+}
